@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Jhoan David Duarte Guayazan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile">
+        <header class="profile__header">
+            <img src="yo.jpeg" alt="Foto de Jhoan David Duarte Guayazan" class="profile__image">
+            <h1 class="profile__name">Jhoan David Duarte Guayazan</h1>
+            <p class="profile__role">Desarrollador Web Full Stack</p>
+        </header>
+
+        <section class="profile__about">
+            <h2 class="profile__section-title">Sobre mí</h2>
+            <p class="profile__description">Mi nombre es Jhoan David Duarte Guayazan. Tengo 25 años y actualmente trabajo como desarrollador web en Health and Life IPS, donde utilizo Angular y Laravel. Llevo un año de experiencia en esta área y me encuentro cursando el cuarto semestre de Ingeniería de Software en la Fundación Universitaria Compensar.</p>
+        </section>
+
+        <section class="profile__experience">
+            <h2 class="profile__section-title">Experiencia</h2>
+            <ul class="profile__experience-list">
+                <li class="profile__experience-item">Desarrollador web en Health and Life IPS - 1 año de experiencia.</li>
+                <li class="profile__experience-item">Desarrollo de módulos y sistemas usando Angular y Laravel.</li>
+            </ul>
+        </section>
+
+        <section class="profile__education">
+            <h2 class="profile__section-title">Educación</h2>
+            <p class="profile__description">Actualmente soy estudiante de Ingeniería de Software en la Fundación Universitaria Compensar, cursando el cuarto semestre.</p>
+        </section>
+
+        <div class="profile__contact">
+            <button onclick="openModal()" class="profile__contact-button">Contactarme</button>
+        </div>
+
+        <footer class="profile__footer">
+            <p class="profile__footer-text">&copy; 2024 Jhoan David Duarte Guayazan</p>
+        </footer>
+    </div>
+
+    <!-- Modal Popup -->
+    <div id="contactModal" class="modal">
+        <div class="modal__content">
+            <span class="modal__close" onclick="closeModal()">&times;</span>
+            <h2 class="modal__title">Mis Redes Sociales</h2>
+            <p class="modal__description">Puedes contactarme a través de las siguientes plataformas:</p>
+            <div class="contact-page__icons">
+                <a href="https://www.instagram.com/davidduarte23" target="_blank" class="contact-page__link">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="contact-page__icon">
+                </a>
+                <a href="https://www.linkedin.com/in/jhoan-david-duarte-433043127" target="_blank" class="contact-page__link">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="contact-page__icon">
+                </a>
+                <a href="https://wa.me/+573135517480" target="_blank" class="contact-page__link">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="contact-page__icon">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
